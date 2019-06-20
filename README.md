@@ -1,6 +1,6 @@
 # i3-center-mouse
 
-Listens for i3 events (e.g. focus change, new container, ...) and centers the
+Listens for i3 events (e.g. `focus`, `exec`, `workspace`, ...) and centers the
 mouse in the currently focused window when they occur. It can be used to keep
 track of which window is focused without having to rely on decorations.
 
@@ -11,9 +11,12 @@ between windows:
 
 ## Dependencies
 
-- [Python 3](https://www.python.org)
-- [`i3ipc-python`](https://github.com/acrisci/i3ipc-python)
-- [`xdotool`](https://www.semicomplete.com/projects/xdotool/)
+- [Python 3](https://www.python.org) (`sudo apt install
+  python3` on Ubuntu / Debian based systems)
+- [`i3ipc-python`](https://github.com/acrisci/i3ipc-python) (`pip3 install
+  i3ipc`, after installing `pip`)
+- [`xdotool`](https://www.semicomplete.com/projects/xdotool/) (`sudo apt install
+  xdotool` on Ubuntu / Debian based systems)
 
 ## Usage
 
