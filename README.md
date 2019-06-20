@@ -11,10 +11,10 @@ between windows:
 
 ## Dependencies
 
-- [Python 3](https://www.python.org) (`sudo apt install
+- [`python3`](https://www.python.org) (`sudo apt install
   python3` on Ubuntu / Debian based systems)
 - [`i3ipc-python`](https://github.com/acrisci/i3ipc-python) (`pip3 install
-  i3ipc`, after installing `pip`)
+  i3ipc`, after installing `python3-pip`)
 - [`xdotool`](https://www.semicomplete.com/projects/xdotool/) (`sudo apt install
   xdotool` on Ubuntu / Debian based systems)
 
